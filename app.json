@@ -1,6 +1,6 @@
 
 {
-  "name": "Aniebot",
+  "name": "Osmani Chat",
   "description": "Telegram's sassiest group manager. Modular Telegram group management bot!",
   "keywords": [
     "telegram",
@@ -9,7 +9,7 @@
     "manager",
     "3"
   ],
-  "repository": "https://github.com/Anieteam/AnieRobot",
+  "repository": "https://github.com/ribfirst/AnieRobot",
   "env": {
     "ENV": {
       "description": "Setting this to ANYTHING will enable env variables",
@@ -17,15 +17,15 @@
     },
     "TOKEN": {
       "description": "Your bot token, as a string.",
-      "value": "Your Bot Token"
+      "value": ""
     },
     "OWNER_ID": {
       "description": "An integer of consisting of your owner ID",
-      "value": "Your Id"
+      "value": "1008271006"
     },
     "OWNER_USERNAME": {
       "description": "Your username",
-      "value": "Your Username"
+      "value": "ribajosmani"
     },
     "URL": {
       "description": "The Heroku App URL similar to https://<appname>.herokuapp.com/",
@@ -33,23 +33,23 @@
     },
     "MESSAGE_DUMP": {
       "description": "optional: a chat where your replied saved messages are stored, to stop people deleting their old",
-      "value": "Group Id"
+      "value": "-1001150107625"
     },
     "SUDO_USERS": {
       "description": "A space separated list of user_ids which should be considered sudo users",
-      "value": "Use You Own List Of Sudo Users"
+      "value": "1008271006"
     },
     "SUPPORT_USERS": {
       "description": "A space separated list of user_ids which should be considered support users (can gban/ungban, nothing else)",
-      "value": "Use You Own List Of Supporting Users"
+      "value": "1008271006"
     },
     "WHITELIST_USERS": {
       "description": "A space separated list of user_ids which should be considered whitelisted - they can't be banned.",
-      "value": "Use You Own List Of Whitelist Users"
+      "value": "1008271006"
     },
     "DONATION_LINK": {
       "description": "Optional: link where you would like to receive donations.",
-      "value": "null"
+      "value": "45000"
     },
     "PORT": {
       "description": "Port to use for your webhooks",
@@ -61,11 +61,11 @@
     },
     "API_ID": {
       "description": "Your account api id",
-      "value": "put your api id here"
+      "value": ""
     },
     "API_HASH": {
       "description": "Your api hash",
-      "value": "put you api hash here"
+      "value": ""
     },
     "STRICT_GBAN": {
       "description": "Enforce gbans across new groups as well as old groups. When a gbanned user talks, he will be banned.",
